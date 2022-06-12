@@ -5,7 +5,7 @@ import (
 	"syscall"
 	"time"
 
-	sctp "github.com/thebagchi/sctp-go"
+	sctp "github.com/vikulin/sctp-go"
 )
 
 func main() {

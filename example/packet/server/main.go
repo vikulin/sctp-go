@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/hex"
 	"fmt"
-	sctp "github.com/thebagchi/sctp-go"
+	sctp "github.com/vikulin/sctp-go"
 	"os"
 	"syscall"
 )

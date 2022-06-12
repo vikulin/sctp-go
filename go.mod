@@ -1,3 +1,3 @@
-module github.com/thebagchi/sctp-go
+module github.com/vikulin/sctp-go
 
-go 1.16
+go 1.17
