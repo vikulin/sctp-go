@@ -175,15 +175,15 @@ func (conn *SCTPConn) RemoteAddr() net.Addr {
 }
 
 func (conn *SCTPConn) SetDeadline(_ time.Time) error {
-	return syscall.ENOPROTOOPT
+	return nil
 }
 
 func (conn *SCTPConn) SetReadDeadline(_ time.Time) error {
-	return syscall.ENOPROTOOPT
+	return nil
 }
 
 func (conn *SCTPConn) SetWriteDeadline(_ time.Time) error {
-	return syscall.ENOPROTOOPT
+	return nil
 }
 
 func (conn *SCTPConn) SetWriteBufferSize(bytes int) error {
